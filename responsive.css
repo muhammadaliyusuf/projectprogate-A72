@@ -1,0 +1,74 @@
+@media all and (max-width: 1000px) {
+    .content-wrapper {
+        height: 1400px;
+    }
+    
+    .listof-mountain {
+        width: 100%;
+    }
+
+    .header-main h1 {
+        font-size: 30px;
+    }
+
+    .header-main p {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 3px;
+    }
+
+    .about {
+        font-size: 13px;
+        margin: 10px 0px 0 20px;
+    }
+
+    .logo-footer {
+        margin-right: 350px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .content-wrapper {
+        height: 1400px;
+    }
+    
+    .listof-mountain {
+        width: 100%;
+    }
+
+    .header-main {
+        margin-top: -50px;
+    }
+
+    .header-main h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .header-main p {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 3px;
+    }
+
+    .header-kiri {
+        display: none;
+    }
+
+    .header-kanan {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .about {
+        font-size: 13px;
+        margin: 10px 0px 0 20px;
+    }
+
+    .logo-footer {
+        margin-right: 55px;
+    }
+}

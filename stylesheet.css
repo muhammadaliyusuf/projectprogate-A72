@@ -1,0 +1,249 @@
+* {
+    font-family: tahoma;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clear {
+    float: left;
+}
+
+.bars {
+    width: 30px;
+    height: 30px;
+    float: right;
+    display: none;
+    margin: 18px;
+}
+
+.main-wrapper {
+    height: 400px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8e/Bromo-Semeru-Batok-Widodaren.jpg);
+    background-size: cover;
+}
+
+.header-main {
+    padding-top: 140px;
+    opacity: 0.7;
+    letter-spacing: 5px;
+}
+
+.header-main h1  {
+    text-shadow: 2px 2px 5px grey;
+}
+
+.socmed img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0 0;
+}
+
+.content-title h2 {
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.content-title hr {
+    width: 300px;
+    border: 1pt solid gray;
+}
+
+.img-gunung {
+    width: 350px;
+    height: 200px;
+    border-radius: 7pt;
+}
+
+.content-wrapper {
+    height: 550px;
+    width: 100%;
+}
+
+.listof-mountain {
+    float: left;
+    width: 33.3%;
+    margin-top: 20px;
+}
+
+.listof-mountain p {
+    font-size: 11pt;
+    width: 330px;
+    margin: 20px auto;
+    line-height: 25px;
+}
+
+.daftar-wrapper {
+    height: 200px;
+    background-color: rgb(179, 179, 179);
+}
+
+.daftar {
+    padding-top: 50px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    display: inline;
+    background-color: rgb(48, 136, 48);
+    border-radius: 4px;
+    color: white;
+    border: unset;
+}
+
+.btn:hover {
+    background-color: rgb(33, 105, 33);
+    cursor: pointer;
+    width: 230px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+footer {
+    height: 200px;
+    background-color: #476072;
+    margin-top: 10px;
+}
+
+footer img {
+    width: 125px;
+    float: left;
+    margin-top: 20px;
+}
+  
+.item {
+   float: left;
+   margin-left: 60px;
+   margin-bottom: 10px;
+   margin-top: 15px;
+   color: white;
+}
+
+.item h3 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #476072;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 90px;
+    margin: 6px 15px 0 0;
+  }
+  
+  .header-logo {
+    float: left;
+  }
+  
+  .header-kiri {
+    float: left;
+    margin-right: -25px;
+  }
+  
+  .header-kiri a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-kiri a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+ .header-kanan {
+    float: right;
+ }
+ .header-kanan a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: right;
+    transition: all 0.5s;
+ }
+ .header-kanan a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+    line-height: 40px;
+   
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #b1aeae;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.about ul a {
+    color: white;
+}
+
+.list-footer {
+    display: inline-block;
+    margin-bottom: 15px;
+}
